@@ -19,7 +19,10 @@ h1, h2 {
     cursor: pointer;
     margin: 10px;
     display: inline-block;
-    background-color: #095f20;
+    background-color: #5f0959;
+}
+.letter-button:hover {
+    background-color: #da1a1a;
 }
 
 .results-container {
@@ -44,13 +47,16 @@ img {
 }
 
 .hide-btn {
-    background-color: #007BFF;
+    background-color:  #5f0959;
     color: white;
     padding: 5px 15px;
     border: none;
     cursor: pointer;
     display: block; /* Full-width button */
     margin: 0 auto;
+}
+.hide-btn:hover {
+    background-color: #da1a1a;
 }
 
 .buttons {
@@ -63,3 +69,4 @@ img {
     background-color: #000000;
     padding: 10px; 
 }
+
