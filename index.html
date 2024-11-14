@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive ABCs of CSS</title>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Link to the external JavaScript file -->
+    <script src="js/script.js"></script>
+    
+    <!-- Intro -->
+    <h1>Welcome to the Interactive ABCs of CSS Technology learning Website</h1>
+    <div>
+        <h2>Click on the buttons below to reveal and learn the CSS technology features of the corresponding letters</h2>
+    </div>
+    <!-- End intro -->
+    <!-- Container for the result sections -->
+    <div class="results-container">
+        <!-- Result section for letter A -->
+        <div class="result" id="result-a">
+            <img id="image-a" src="assets/css-letter-a.png" alt="A is for aspect-ratio">
+            <button class="hide-btn" onclick="hideResult('a')">Hide Result</button>
+        </div>
+        
+        <!-- Result section for letter B -->
+        <div class="result" id="result-b">
+            <img id="image-b" src="assets/css-letter-b.png" alt="B is for border">
+            <button class="hide-btn" onclick="hideResult('b')">Hide Result</button>
+        </div>
+        
+        <!-- Result section for letter C -->
+        <div class="result" id="result-c">
+            <img id="image-c" src="assets/css-letter-c.png" alt="C is for colors">
+            <button class="hide-btn" onclick="hideResult('c')">Hide Result</button>
+        </div>
+    </div>
+
+    <div class="buttons">
+        <!-- A button -->
+        <button class="letter-button" onclick="showImage('a')">A</button>
+        <!-- B button -->
+        <button class="letter-button" onclick="showImage('b')">B</button>
+        <!-- C button -->
+        <button class="letter-button" onclick="showImage('c')">C</button>
+    </div>
+
+    
+</body>
+</html>
